@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* font family */
+
+body {
+    font-family: 'Mulish', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+
+/* header style  */
+
+/* nav bar style  */
+
+
+.header-section{ max-width: 1200px;
+    margin: 0 auto;
+    border: 4px solid yellow;
+    display: flex;
+   
+  
+
+}
+.nav-container{
+    border: 4px solid red;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+   min-width: 50%;
+  
+}
+.nav-container p{
+
+    color: #131318;
+
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+
+
+}
+.special{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.item-container{
+    border: 4px solid blue;
+    width: 50%
+}
+
+.item-container{
+    border: 4px solid skyblue;
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: px;
+    
+   
+}
+
+/* banner rection  */
+
+
+.banner-wrapper{ max-width: 1200px;
+    min-height: 500px;
+    border: 2px solid red;
+    margin: 60px auto;
+
+    background: url(../images/Group13.png);
+
+}
+.banner-wrapper h1{
+    color: #FFF;
+
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 300px;
+}
+
+.banner-wrapper p{
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-left: 300px;
+margin-right: 300px;
+}
+
+.banner-wrapper div{
+    color: solid red;
+}
